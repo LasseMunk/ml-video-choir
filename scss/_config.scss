@@ -1,0 +1,26 @@
+// Variables
+$primary-color: #f9eacb;
+$medium-color: #c0c0c0;
+$old-grey-color: #a0a0a0;
+$dark-color: #333;
+$highlight-color: #ff0000;
+
+$website-width: 768px;
+// lets about images be 320px wide
+
+// $font-family: "Press Start 2P", cursive;
+$font-family: "Lato", sans-serif;
+
+$navbar-fontsize: 1rem;
+
+// text colors
+.light-color {
+  color: $old-grey-color;
+}
+.dark-color {
+  color: $dark-color;
+}
+
+.bold {
+  font-weight: bold;
+}

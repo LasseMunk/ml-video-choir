@@ -1,0 +1,68 @@
+.light-color {
+  color: #a0a0a0;
+}
+
+.dark-color {
+  color: #333;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 768px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Lato", sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background: #f9eacb;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+  border-bottom: 2px transparent dotted;
+  padding-bottom: 0.5rem;
+  transition: all 0.5s;
+}
+
+a:hover {
+  border-bottom: 2px dotted #ff0000;
+  color: #ff0000;
+}
+
+a.current {
+  border-bottom: 2px dotted #ff0000;
+  color: #ff0000;
+}
+
+hr {
+  margin: 2rem 0;
+  height: 1px;
+  border-top: 1px dashed #c0c0c0;
+  border-bottom: none;
+}
+
+#video-element, .video-section {
+  width: 500px;
+  height: 500px;
+}
