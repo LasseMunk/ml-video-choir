@@ -1,0 +1,1 @@
+we dont need to do scaled mesh on all points when we only need 4 points.

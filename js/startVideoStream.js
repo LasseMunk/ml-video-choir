@@ -8,8 +8,8 @@ const setupCamera = () => {
   navigator.mediaDevices.getUserMedia({
     video: {  
       facingMode: 'user',
-      width: 250, 
-      height: 250
+      width: 500, 
+      height: 500
     },
     audio: false
 
@@ -23,7 +23,8 @@ setupCamera();
 
 videoElement.onloadeddata = () => {
   // call main function when video renders first frame
-  detectFaces(videoElement);
+  // console.log(instanceof videoElement);
+  detectFacesAnimationFrame(videoElement);
 }
 
 
